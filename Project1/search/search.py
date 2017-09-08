@@ -96,6 +96,27 @@ def genericSearch(problem, type):
                 fringe.push(pos, actions + [dir], visited)
 
 
+def genericSearch1(problem, fringe, add_fn):
+    closed = set()
+    start = (problem.getStartState(), [], 0)  # (node, cost, path)
+    add_fn(fringe, start, 0)
+
+    while fringe.isEmpty() == False:
+        (state, path, cost) = fringe.pop()
+
+        if problem.isGoalState(state):
+            return path
+
+        if state not in closed:
+            closed.add(state)
+
+            for pos, dirs, step in problem.getSuccessors(state):
+                new_path = path + [dirs]
+                new_cost = cost + step
+                new_state = (pos, new_path,new_cost)
+                add_fn(fringe, new_state, new_cost)
+
+
 
 
 def depthFirstSearch(problem):
@@ -138,9 +159,6 @@ def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
 
-    #return genericSearch(problem, 'bfs')
-
-
     fringe = util.Queue()
     fringe.push((problem.getStartState(), [], []))  # Push the start state pos, and create lists for the actions and the visited
 
@@ -164,37 +182,15 @@ def breadthFirstSearch(problem):
                     fringe.push((pos, actions + [dirs], visited))
 
 
-
 def uniformCostSearch(problem):
+    """for some reason, I couldn't get UCS to work without having a generic search model."""
     """Search the node of least total cost first."""
-
-    #TODO: Figure out why this doesn't pass the dequeueing test.
     "*** YOUR CODE HERE ***"
 
-    #return genericSearch(problem, 'ucs')
-
     fringe = util.PriorityQueue()
-
-    # Push the start state pos, and create lists for the actions and the visited
-    fringe.push((problem.getStartState(), [], []), 0)
-    states_in_fringe = []
-    while fringe.isEmpty() == False:  # if the fringe isn't empty
-
-        # pop the state of the top of the stack
-        state, actions, visited = fringe.pop() #chooses the lowest cost node in fringe.
-
-        if problem.isGoalState(state):
-            return actions
-
-        if state not in visited:
-            # label state as visited
-            visited = visited + [state]
-
-            # add the successors that have not been visited to the fringe.
-            for pos, dirs, step in problem.getSuccessors(state):
-                if pos not in states_in_fringe:
-                    states_in_fringe = states_in_fringe + [pos]
-                    fringe.update((pos, actions + [dirs], visited), problem.getCostOfActions(actions +[dirs]))
+    def add(fringe, state, cost):
+        fringe.update(state,cost)
+    return genericSearch1(problem, fringe, add)
 
 
 def nullHeuristic(state, problem=None):
@@ -213,42 +209,21 @@ def manhattanHeuristic(state, problem):
     #print 'Goal is at (heuristic): ', problem.goal
     #TODO: implement this function
 
-
-
-    return util.manhattanDistance(state, problem.goal)
+    return 0
 
 
 def aStarSearch(problem, heuristic=manhattanHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
+
     fringe = util.PriorityQueue()
 
-    #print 'The goal is a (astar): ', problem.goal
-    # Push the start state pos, and create lists for the actions and the visited
-    fringe.push((problem.getStartState(), [], []), 0)  
-    states_in_fringe = [problem.getStartState()]
+    def add(fringe, state, cost):
+        state_pos = state[0]
+        total_cost = cost + heuristic(state_pos, problem)
+        fringe.update(state, total_cost)
 
-    while fringe.isEmpty() == False:  # if the fringe isn't empty
-
-        # pop the state of the top of the stack
-        state, actions, visited = fringe.pop()
-        
-        if problem.isGoalState(state):
-            return actions
-
-        if state not in visited:
-            # label state as visited
-            visited = visited + [state]
-
-            # add the successors that have not been visited to the fringe.
-            for pos, dirs, cost in problem.getSuccessors(state):
-                if pos not in states_in_fringe:
-                    states_in_fringe = states_in_fringe + [pos]
-                    #get the cost of the node, 
-                    new_cost = problem.getCostOfActions(actions + [dirs]) + heuristic(state, problem)
-                    fringe.update((pos, actions + [dirs], visited), new_cost)
-
-
+    return genericSearch1(problem, fringe, add)
 
 
 # Abbreviations
