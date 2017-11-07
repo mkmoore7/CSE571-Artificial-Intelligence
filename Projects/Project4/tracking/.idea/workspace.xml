@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691665f9-57f5-449c-aa36-6d81cd7cdb35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tracking.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autograder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/busters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bustersAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bustersGhostAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/distanceCalculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ghostAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicsDisplay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicsUtils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inference.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keyboardAgents.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/bigHunt.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/oneHunt.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/openHunt.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/smallHunt.lay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pacman.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projectParams.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testClasses.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testParser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/1-ExactObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/1-ExactObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/2-ExactObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/2-ExactObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/3-ExactObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/3-ExactObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/4-ExactObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/4-ExactObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/1-ExactElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/1-ExactElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/2-ExactElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/2-ExactElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/3-ExactElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/3-ExactElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/4-ExactElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/4-ExactElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/1-ExactObserveElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/1-ExactObserveElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/2-ExactObserveElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/2-ExactObserveElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/3-gameScoreTest.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/3-gameScoreTest.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/1-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/1-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/2-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/2-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/3-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/3-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/4-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/4-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/5-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/5-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/6-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/6-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/7-ParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/7-ParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/1-ParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/1-ParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/2-ParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/2-ParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/3-ParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/3-ParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/4-ParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/4-ParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/5-ParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/5-ParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/6-ParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/6-ParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/1-JointParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/1-JointParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/2-JointParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/2-JointParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/3-JointParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/3-JointParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/4-JointParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/4-JointParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/5-JointParticleObserve.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/5-JointParticleObserve.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/1-JointParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/1-JointParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/2-JointParticleElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/2-JointParticleElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/3-JointParticleObserveElapse.solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/3-JointParticleObserveElapse.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/CONFIG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textDisplay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trackingTestClasses.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bustersAgents.py" afterPath="$PROJECT_DIR$/bustersAgents.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,21 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inference.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inference.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="225" column="32" lean-forward="true" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+            <state relative-caret-position="222">
+              <caret line="240" column="68" lean-forward="false" selection-start-line="240" selection-start-column="68" selection-end-line="240" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bustersAgents.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bustersAgents.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bustersAgents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="485">
+              <caret line="182" column="31" lean-forward="false" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -143,6 +42,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/inference.py" />
+        <option value="$PROJECT_DIR$/bustersAgents.py" />
       </list>
     </option>
   </component>
@@ -213,15 +113,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-1057" width="975" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2540193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2540193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26754832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26754832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -274,18 +175,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bustersAgents.py">
+    <entry file="file://$PROJECT_DIR$/inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="240" column="68" lean-forward="false" selection-start-line="240" selection-start-column="68" selection-end-line="240" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inference.py">
+    <entry file="file://$PROJECT_DIR$/bustersAgents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="225" column="32" lean-forward="true" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+        <state relative-caret-position="485">
+          <caret line="182" column="31" lean-forward="false" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
           <folding />
         </state>
       </provider>
